@@ -1,11 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /* more headers goes here */
 
 /* betty style doc for function main goes there */
 int main(void)
 {
-	let n;
+	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
