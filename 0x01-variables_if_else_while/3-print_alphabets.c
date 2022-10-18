@@ -3,9 +3,7 @@
 #include <time.h>
 /**
  * main - returns lower and upper case
- * Return: returns 0 
- */
-
+ * Return: returns 0 */
 int main(void)
 {
 	int x = 'a';
