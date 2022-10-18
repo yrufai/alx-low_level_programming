@@ -2,24 +2,24 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - returns alphabet in both lower and upper case
- * Return: returns 0 (successful)
+ * main - returns lower and upper case
+ * Return: returns 0 
  */
 
 int main(void)
 {
-	int ch = 'a';
-	int CH = 'A';
+	int x = 'a';
+	int y = 'A';
 
-	while (ch <= 'z')
+	while (x <= 'z')
 	{
-		putchar(ch);
-		ch++;
+		putchar(x);
+		x++;
 	}
-	while (CH <= 'Z')
+	while (y <= 'Z')
 	{
-		putchar(CH);
-		CH++;
+		putchar(y);
+		y++;
 	}
 	putchar('\n');
 	return (0);
