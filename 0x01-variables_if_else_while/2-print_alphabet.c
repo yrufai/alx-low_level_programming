@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - returns alphabelts
+ * main - returns alphabelt
  * Return: returns 0 (successful)
  */
 int main(void)
