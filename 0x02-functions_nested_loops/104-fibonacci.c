@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.c"
 /**
  *main - prints out first 98
  *fibonacci suit numbers
