@@ -12,7 +12,7 @@ int main(void)
 	int i;
 	for(i = 3; i <= 98; i++)
 	{
-		printf ("%d,  ", nxtTerm);
+		printf ("%d, ", nxtTerm);
 		num1 = num2;
 		num2 = nxtTerm;
 		nxtTerm = num1 + num2;
