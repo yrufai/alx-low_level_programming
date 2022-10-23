@@ -7,8 +7,8 @@
 int main(void)
 {
 
-	int num1 = 0, num2 = 1;
-	int nxtTerm = num1 + num2;
+	unsigned int num1 = 0, num2 = 1;
+	unsigned int nxtTerm = num1 + num2;
 	int i;
 	for(i = 3; i <= 98; i++)
 	{
