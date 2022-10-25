@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -13,7 +12,7 @@ void rev_string(char *s)
 	int c = 0;
 	int i;
 
-	while (s[c] != "\0")
+	while (s[c] != '\0')
 		c++;
 	for (i = 0; i < c; i++)
 	{
