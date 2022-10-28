@@ -4,7 +4,7 @@
 *  reverse_array - function that reverse content of array
 *  @a: arrays
 *  @a: array
-* Return: nul
+*  Return: null
 */
 
 void reverse_array(int *a, int n)
@@ -17,4 +17,3 @@ a[n - 1 - index] = a[index];
 a[index] = tmp;
 }
 }
-
